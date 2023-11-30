@@ -98,20 +98,27 @@ body {
   object-fit: cover;
 }
 /* .page1-right .identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page1-right .identity #name {
   color: white;
   height: 13vh;
   width: 10vw;
   background-color: rgba(228, 27, 27, 0.5);
   padding: 10px;
   box-sizing: border-box;
-} */
+}
 
-.page1-right .identity h1 {
+.page1-right .identity #name h1 {
   margin: 0;
   font-size: 16px;
   font-family: Merriweather;
   font-weight: bold;
-}
+} */
+
 /* ****************************************************************** */
 #page2 {
   width: 100%;
